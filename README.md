@@ -10,7 +10,7 @@ AWS IoT CoreとTimestreamを使用した稲作水位監視システムのイン�
 ```mermaid
 graph TB
     subgraph "XIAO-c3"
-        A[水位センサー(超音波センサー)]
+        A[水位センサー]
     end
     
     subgraph "AWS IoT Core"
